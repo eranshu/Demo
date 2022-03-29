@@ -41,7 +41,7 @@ public:
         cout << "Copied Name is " << CallingName << endl;
     }
 
-    Demo operator=(const Demo& ObjectForCopy)
+    Demo& operator=(const Demo& ObjectForCopy)
     {
         if (this == &ObjectForCopy)
         {

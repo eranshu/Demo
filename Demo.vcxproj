@@ -140,7 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="Copy_Constructor_Demo.cpp" />
+    <ClCompile Include="Solution_LengthofLastWord.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution_LengthofLastWord.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
